@@ -138,3 +138,23 @@
 	margin: 5px 15px;
 	font-size: 12px;
 }
+
+.quote__section {
+	background-color: var(--secondary-bgc);
+	padding: 15px;
+}
+
+.quote__section p {
+	margin: 5px 80px;
+	font-size: 36px;
+	font-style: italic;
+	color: #1f2937;
+	text-align: center;
+}
+
+.quote__section figcaption {
+	text-align: end;
+	margin-right: 200px;
+	font-weight: bold;
+	font-size: 18px;
+}
