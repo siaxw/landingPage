@@ -158,3 +158,52 @@
 	font-weight: bold;
 	font-size: 18px;
 }
+
+.white__blue__container {
+	background-color: white;
+}
+
+.sign__up__container {
+	margin: 90px 360px;
+	padding: 60px;
+	background-color: var(--button-color);
+	display: flex;
+	justify-content: space-between;
+	border-radius: 26px;
+	transition: 0.3s;
+}
+
+.sign__up__container:hover {
+	padding: 100px;
+}
+
+.sign__up__container .text {
+	color: white;
+}
+
+.sign__up__container button {
+	border: 1px solid white;
+	padding: 5px;
+	width: 180px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: var(--button-color);
+	color: white;
+	margin-top: 10px;
+	transition: 0.3s;
+}
+
+.sign__up__container button:hover {
+	background-color: white;
+	color: black;
+}
+
+.footer {
+	background-color: var(--main-bgc);
+}
+
+.footer p {
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
