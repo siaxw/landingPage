@@ -28,15 +28,14 @@
 
 .header__container {
 	background-color: var(--main-bgc);
-	height: 300px;
+	height: 400px;
 }
 
 .header {
-	margin: 0px 180px;
+	margin: 0px 140px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border: 1px solid white;
 }
 
 .header .header__logo {
@@ -54,4 +53,45 @@
 .header .header__links a {
 	color: var(--hero-secondary-color);
 	font-size: var(--hero-secondary-size);
+}
+
+.header__content {
+	margin: 80px 140px;
+	display: flex;
+}
+
+.left-side {
+	width: 700px;
+}
+
+.header__content .content__header {
+	color: var(--hero-main-color);
+	font-size: var(--hero-main-size);
+	font-weight: var(--hero-main-weight);
+}
+
+.header__content .content__p {
+	color: var(--hero-secondary-color);
+	font-size: var(--hero-secondary-size);
+	margin-top: 10px;
+}
+
+.header__content .content__btn {
+	border: 0px;
+	padding: 5px;
+	width: 80px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: var(--button-color);
+	color: white;
+	margin-top: 10px;
+}
+
+.right__side {
+	width: 700px;
+}
+
+.right__side img {
+	width: 700px;
+	height: 400px;
 }
