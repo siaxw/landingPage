@@ -5,3 +5,22 @@
 	list-style-type: none;
 	text-decoration: none;
 }
+
+:root {
+	--main-bgc: #1f2937;
+	--hero-main-size: 48px;
+	--hero-main-weight: bold;
+	--hero-main-color: #f9faf8;
+	--hero-secondary-size: 18px;
+	--hero-secondary-color: #e5e7eb;
+	--header-logo-size: 24px;
+	--header-logo-color: #f9faf8;
+	--button-color: #3882f6;
+	--information-header-size: 36px;
+	--information-header-weight: bold;
+	--information-header-color: #1f2937;
+	--secondary-bgc: #e5e7eb;
+	--secondary-text-size: 36px;
+	--secondary-text-weight: italic;
+	--secondary-text-color: #1f2937;
+}
