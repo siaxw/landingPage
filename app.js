@@ -129,3 +129,8 @@ if(cheese){
 }else{
     console.log('No cheese on toast for you today.')
 }
+
+
+let isBirthday = true;
+let greeting2 = (isBirthday) ? "Happy birthday Mrs. Smith - we hope you have a great day!" : "Good morning Mrs. Smith";
+console.log(greeting2);

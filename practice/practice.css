@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+}
+
+.numbers {
+	border: 5px solid #3882f6;
+	margin: 10px 200px;
+	height: 800px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-flow: row wrap;
+	border-radius: 15px;
+}
+
+.number {
+	border: 1px solid white;
+	width: 170px;
+	height: 80px;
+	margin: 5px 10px;
+	border-radius: 15px 15px 5px;
+	padding: 5px;
+	color: white;
+	background-color: #3882f6;
+}

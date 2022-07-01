@@ -4,71 +4,58 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Conditional</title>
+		<link rel="stylesheet" href="/practice/practice.css" />
 	</head>
 	<body>
-		<label for="weather">Select the weather type today:</label>
-		<select id="weather">
-			<option value="">--Make a choice--</option>
-			<option value="sunny">Sunny</option>
-			<option value="rainy">Rainy</option>
-			<option value="snowing">Snowing</option>
-			<option value="overcast">Overcast</option>
+		<label for="month">Live output</label>
+		<select name="month">
+			<option value="january">January</option>
+			<option value="february">February</option>
+			<option value="march">March</option>
+			<option value="april">April</option>
+			<option value="may">May</option>
+			<option value="june">June</option>
+			<option value="july">July</option>
+			<option value="august">August</option>
+			<option value="september">September</option>
+			<option value="october">October</option>
+			<option value="november">November</option>
+			<option value="december">December</option>
 		</select>
-		<p></p>
-		<script>
-			const select = document.querySelector("select");
-			const para = document.querySelector("p");
-			select.addEventListener("change", () => {
-				const choice = select.value;
-
-				switch (choice) {
-					case "sunny":
-						para.textContent =
-							"It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream.";
-						break;
-					case "rainy":
-						para.textContent =
-							"Rain is falling outside; take a rain coat and an umbrella, and don't stay out for too long.";
-						break;
-					case "snowing":
-						para.textContent =
-							"The snow is coming down — it is freezing! Best to stay in with a cup of hot chocolate, or go build a snowman.";
-						break;
-					case "overcast":
-						para.textContent =
-							"It isn't raining, but the sky is grey and gloomy; it could turn any minute, so take a rain coat just in case.";
-						break;
-					default:
-						para.textContent = "";
-				}
-			});
-			/*
-						select.addEventListener("change",setWeather);
-
-						function setWeather() {
-							const choice = select.value;
-
-							if (choice === "sunny") {
-								if (temperature < 86) {
-									para.textContent = `It is ${temperature} degrees outside - nice and sunny. Let\'s go out to the beach, or the park, and get an ice cream.`;
-								} else if (temperature >= 86) {
-									para.textContent = `It is ${temperature} degrees outside - REALLY HOT! If you want to go outside, make sure to put some sunscreen on.`;
-								}
-							} else if (choice === "rainy") {
-								para.textContent =
-									"Rain is falling outside; take a rain coat and an umbrella, and don't stay out for too long.";
-							} else if (choice === "snowing") {
-								para.textContent =
-									"The snow is coming down — it is freezing! Best to stay in with a cup of hot chocolate, or go build a snowman.";
-							} else if (choice === "overcast") {
-								para.textContent =
-									"It isn't raining, but the sky is grey and gloomy; it could turn any minute, so take a rain coat just in case.";
-							} else {
-								para.textContent = "";
-							}
-						}
-						     */
-		</script>
+		<h1>January</h1>
+		<div class="numbers">
+			<div class="number">1</div>
+			<div class="number">2</div>
+			<div class="number">3</div>
+			<div class="number">4</div>
+			<div class="number">5</div>
+			<div class="number">6</div>
+			<div class="number">7</div>
+			<div class="number">8</div>
+			<div class="number">9</div>
+			<div class="number">10</div>
+			<div class="number">11</div>
+			<div class="number">12</div>
+			<div class="number">13</div>
+			<div class="number">14</div>
+			<div class="number">15</div>
+			<div class="number">16</div>
+			<div class="number">17</div>
+			<div class="number">18</div>
+			<div class="number">19</div>
+			<div class="number">20</div>
+			<div class="number">21</div>
+			<div class="number">22</div>
+			<div class="number">23</div>
+			<div class="number">24</div>
+			<div class="number">25</div>
+			<div class="number">26</div>
+			<div class="number">27</div>
+			<div class="number">28</div>
+			<div class="number">29</div>
+			<div class="number">30</div>
+			<!--<div class="number">31</div>-->
+		</div>
 	</body>
 </html>
